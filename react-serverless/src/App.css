@@ -1,0 +1,52 @@
+
+.lists{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+strong{
+  color: blue;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+span{
+  color: rebeccapurple;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h1{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: coral;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+small{
+  color: cornflowerblue;
+  margin-left: 20px;
+}
+.country{
+  margin-left: 40px;
+}
+div{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.reducer{
+  margin-top:20px;
+  margin-left:20px;
+}
+.reducerDiv{
+  margin-left:20px;
+}
+.ErrorHandeling{
+  margin-left: 30px;
+}
+
