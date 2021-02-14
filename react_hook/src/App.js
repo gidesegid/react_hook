@@ -56,14 +56,14 @@ function App() {
         <div>
           <strong><h1>Sample carriers details</h1> <small>(using useState,useEffect from React hook)</small></strong>
          <div className="lists">
-            {data.map((item)=>
+            {/* {data.map((item)=>
               <div>
                 <div> <strong>Id:</strong><span>{item.id} </span></div>
                 <div><strong>Name:</strong><span>{item.name} </span></div>
                 <div><strong>Price:</strong><span>{item.price}</span></div>
                 <div><strong>Country:</strong><ul className="country">{item.countries.map((ele)=><li>{ele}</li>)}</ul></div>
               </div>
-            )}
+            )} */}
           </div>
           </div>
           <ReducerSample/>
