@@ -1,8 +1,8 @@
 
-.lists{
-  display: flex;
+.container{
+  display:  flex;
   flex-direction: row;
-  justify-content: start;
+  margin-top: 10px;
 }
 strong{
   color: blue;
@@ -28,25 +28,50 @@ h1{
   display: flex;
   flex-direction: column;
 }
-small{
-  color: cornflowerblue;
-  margin-left: 20px;
-}
-.country{
-  margin-left: 40px;
-}
-div{
-  margin-bottom: 10px;
-  margin-top: 10px;
-}
-.reducer{
-  margin-top:20px;
-  margin-left:20px;
-}
-.reducerDiv{
-  margin-left:20px;
-}
 .ErrorHandeling{
+  margin-top:30px;
+  margin-left:20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.ErrorHandeling section{
   margin-left: 30px;
 }
+.reducer{
+  margin-top:30px;
+  margin-left:20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: cadetblue;
+}
+.reducer div{
+  margin-left: 30px;
+}
+.usersList{
+  margin-top:10px;
+  margin-left:20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.output{
+  margin-top: 100px;
+}
+@media screen and (max-width: 992px) {
+  .container{
+    display:  flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  h1{
+    font-size: 14px;
+  }
+  .usersList{
+    height: 300px;
+    overflow-y: scroll;
+  }
+  .reducer{
+    height: 100px;
+  }
+}
+
 

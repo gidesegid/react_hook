@@ -1,5 +1,4 @@
 import React,{useReducer} from 'react'
-import ReactDOM from 'react-dom';
 import Button from '@material-ui/core/Button';
 const Actions={
     increment:"increment",
@@ -25,11 +24,11 @@ function ReducerSample(){
     }
     return(
         <div className="reducer">
-             <h1>Reducer Sample(useReducer from react hook)</h1>
-            <div className="reducerDiv">
-                <Button variant="contained" color="info" onClick={decrement}>-</Button>
+             <h1>Reducer Sample:useReducer</h1>
+            <div>
+                <Button variant="contained"  onClick={decrement}>-</Button>
                 <span>{state.count}</span>
-                <Button variant="contained" color="info" onClick={increment}>+</Button>
+                <Button variant="contained"  onClick={increment}>+</Button>
             </div>
         </div>
     )
