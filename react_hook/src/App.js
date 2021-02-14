@@ -69,7 +69,6 @@ function App() {
           <ReducerSample/>
           <ErrorHandeling/>
     </div>
-    
   );
 }
 export default App;

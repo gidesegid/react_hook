@@ -7,7 +7,6 @@ export default function ErrorHandeling() {
   const [executionOutput, setExecutionOutput] = useState("");
   const [hasError, setHasError] = useState(false);
   const [output,setOutput]=useState(false)
-  
 
   function getDivision() {
     try {
@@ -28,7 +27,6 @@ export default function ErrorHandeling() {
       setHasError(false)
   }
   return (
-      
     <div className="ErrorHandeling">
         <h1>Error handeling</h1>
       {!hasError && (
@@ -56,7 +54,6 @@ export default function ErrorHandeling() {
     </div>
   );
 }
-
 function ErrorComponent() {
   return <p>Division By 0 is not allowed.Please fill your height</p>
 }
